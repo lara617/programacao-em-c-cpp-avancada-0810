@@ -11,8 +11,8 @@ frutalang/
 │   ├── frutalang.cpp
 │   └── main.cpp
 ├── exemplos/
-│   ├── teste.fruta
-│   └── exemplo.fruta
+│   ├── carrinho.fruta
+│   └── exemplo_completo.fruta
 └── README.md
 ```
 
@@ -40,7 +40,19 @@ uva
 ```
 
 ### limao
-Finaliza a compra, pede o valor pago e calcula o troco.
+Finaliza a compra:
+1. Mostra o total da compra
+2. Pede o valor pago
+3. Se o valor for insuficiente:
+   - Mostra mensagem "Dinheiro insuficiente!"
+   - Mostra quanto falta
+   - Mostra o total novamente
+   - Pede para digitar um novo valor
+4. Se o valor for igual ou superior:
+   - Mostra mensagem "Compra realizada com sucesso!"
+   - Mostra o troco
+   - Mostra mensagem "Volte sempre!"
+   - Limpa o carrinho
 
 **Sintaxe:**
 ```
@@ -73,7 +85,6 @@ pera "nome_do_produto" quantidade
 pera "Lápis" 2
 ```
 
-
 ### laranja
 Mostra o total atual do carrinho de compras.
 
@@ -82,24 +93,12 @@ Mostra o total atual do carrinho de compras.
 laranja
 ```
 
-### limao
-Finaliza a compra:
-1. Mostra o total da compra
-2. Pede o valor pago
-3. Se o valor for insuficiente:
-   - Mostra mensagem "Dinheiro insuficiente!"
-   - Mostra quanto falta
-   - Mostra o total novamente
-   - Pede para digitar um novo valor
-4. Se o valor for igual ou superior:
-   - Mostra mensagem "Compra realizada com sucesso!"
-   - Mostra o troco
-   - Mostra mensagem "Volte sempre!"
-   - Limpa o carrinho
+### sair
+Encerra o programa.
 
 **Sintaxe:**
 ```
-limao
+sair
 ```
 
 ### kiwi
@@ -166,3 +165,7 @@ laranja
 ## Requisitos
 - Compilador C++ (g++ recomendado)
 - Sistema operacional Windows/Linux/MacOS
+=======
+este projeto é de microserviços
+
+>>>>>>> a4d35810e0e68627f2fef81616e1d71e799fe8b4
