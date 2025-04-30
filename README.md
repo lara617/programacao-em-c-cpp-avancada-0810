@@ -101,6 +101,10 @@ Encerra o programa.
 sair
 ```
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2ea9f26f8c245b30d7de801f06f3147d1ac6115a
 
 ## Como Usar
 
