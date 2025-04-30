@@ -101,18 +101,6 @@ Encerra o programa.
 sair
 ```
 
-### kiwi
-Remove um produto do carrinho com a quantidade desejada.
-
-**Sintaxe:**
-```
-kiwi "nome_do_produto" quantidade
-```
-
-**Exemplo:**
-```
-kiwi "Lápis" 2
-```
 
 ## Como Usar
 

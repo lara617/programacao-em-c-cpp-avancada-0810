@@ -44,7 +44,7 @@ limao
 ```
 
 ## Compilação e Execução
-Para compilar e executar o programa:
+Para compilar e executar o Programa:
 
 1. Certifique-se de ter um compilador C++ instalado
 2. Compile o programa:
