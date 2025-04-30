@@ -1,0 +1,32 @@
+# Adicionar produtos ao estoque
+morango "Lápis" 1.50 100
+morango "Caneta" 2.00 50
+morango "Caderno" 10.00 30
+morango "Borracha" 1.00 100
+morango "Apontador" 1.20 50
+
+# Listar produtos no estoque
+uva
+
+# Adicionar produtos ao carrinho
+pera "Lápis" 2
+pera "Caneta" 3
+pera "Caderno" 1
+
+# Ver carrinho
+maça
+
+# Ver total do carrinho
+laranja
+
+# Finalizar compra
+limao
+
+# Ver troco
+cereja
+
+# Remover produto do estoque
+banana "Borracha"
+
+# Listar estoque novamente
+uva
